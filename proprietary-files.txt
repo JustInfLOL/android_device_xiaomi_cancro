@@ -343,8 +343,6 @@ vendor/lib/libssd.so
 vendor/lib/liboemcrypto.so|ed97a68cd9a604db43aa1267b4d525693b27afdf
 
 # Firmware
-vendor/firmware/bcm2079x-b5_firmware.ncd
-vendor/firmware/bcm2079x-b5_pre_firmware.ncd
 vendor/firmware/keymaster/keymaster.b00
 vendor/firmware/keymaster/keymaster.b01
 vendor/firmware/keymaster/keymaster.b02
@@ -397,6 +395,10 @@ vendor/lib/libOmxAmrwbplusDec.so
 vendor/lib/libOmxEvrcDec.so
 vendor/lib/libOmxQcelp13Dec.so
 vendor/lib/libOmxWmaDec.so
+
+# NFC frimware
+vendor/firmware/BCM20791B5_002.006.013.0011.0104_Customers_China_NCD_Unsigned_configdata.ncd
+vendor/firmware/PreI2C_v470.ncd
 
 # Perf
 bin/mpdecision:vendor/bin/mpdecision
