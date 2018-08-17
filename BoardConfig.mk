@@ -82,7 +82,7 @@ TARGET_POWERHAL_SET_INTERACTIVE_EXT := $(DEVICE_PATH)/power/power_ext.c
 
 # Audio
 BOARD_USES_ALSA_AUDIO                      := true
-USE_CUSTOM_AUDIO_POLICY                    := 1
+#USE_CUSTOM_AUDIO_POLICY                    := 1
 TARGET_USES_QCOM_MM_AUDIO                  := true
 AUDIO_FEATURE_ENABLED_COMPRESS_VOIP        := true
 AUDIO_FEATURE_ENABLED_EXTN_FORMATS         := true
@@ -111,7 +111,7 @@ BLUETOOTH_HCI_USE_MCT                       := true
 TARGET_BOOTANIMATION_HALF_RES := true
 
 # Radio
-TARGET_RIL_VARIANT                := caf
+#TARGET_RIL_VARIANT                := caf
 FEATURE_QCRIL_UIM_SAP_SERVER_MODE := true
 
 # Graphics
@@ -190,7 +190,7 @@ TARGET_PROVIDES_GPS_LOC_API := true
 TARGET_PROVIDES_LIBLIGHT := true
 
 # ANT+
-BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
+#BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
 
 # Use HW crypto for ODE
 TARGET_HW_DISK_ENCRYPTION := true
@@ -214,10 +214,10 @@ endif
 DONT_DEXPREOPT_PREBUILTS := true
 
 # qcom sepolicy
-include device/qcom/sepolicy/sepolicy.mk
-include device/qcom/sepolicy/legacy-sepolicy.mk
+#include device/qcom/sepolicy/sepolicy.mk
+#include device/qcom/sepolicy/legacy-sepolicy.mk
 
-BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
+#BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
 # TWRP Support
 ifeq ($(WITH_TWRP),true)
