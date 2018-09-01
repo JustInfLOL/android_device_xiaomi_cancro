@@ -133,7 +133,7 @@ void vendor_load_properties()
             property_override("ro.product.model", "MI 4");
             break;
         case 1977:
-            property_override_dual("ro.product.model", "ro.vendor.product.model", "MI 3C");
+            property_override("ro.product.model", "MI 3C");
             property_set("ro.telephony.default_network", "8");
             property_set("persist.radio.force_on_dc", "true");
             property_set("persist.omh.enabled", "true");
